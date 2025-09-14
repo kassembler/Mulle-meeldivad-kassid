@@ -1,0 +1,147 @@
+body{ 
+  border: 3px solid rgb(167, 140, 106);
+  background-color: antiquewhite;
+}
+h1{
+  text-align: center;
+  color: rgb(167, 140, 106);
+}
+h3{
+  text-align: center;
+  color: rgb(167, 140, 106);
+}
+.retseptid{
+  float: left;
+  margin-left: 30%;
+  color: rgb(167, 140, 106);
+}
+.v6ta{
+  float: right;
+  margin-right: 30%;
+  color: rgb(167, 140, 106);
+}
+.b2nner{
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 5%;
+}
+.meist {
+  padding-left: 5%;
+  float: left;
+  width: 55%;
+  font-size: 20px;
+  padding-right: 5%;
+  color: rgb(167, 140, 106);
+}
+.meist_pilt{
+  width: 25%;
+  float: right;
+  margin-right: 5%;
+  border:3px solid rgb(167, 140, 106);
+  border-radius: 20px;
+}
+.clearfix{
+  clear: both;
+}
+.retsept{
+  visibility: hidden;
+  margin-left: 5%;
+  color: rgb(167, 140, 106);
+}
+.veerg {
+  display: inline-block;
+  padding: 1px;
+  padding-bottom: 3%;
+  width: 33%;
+}
+.ring{
+  width: 100%;
+  border-radius:500px;
+}
+.animatsioon{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.5s ease-in-out;
+}
+.p2ritolu{
+  position: absolute;
+  opacity: 0%;
+  transition: opacity 0.5s ease-in-out;
+}
+.animatsioon:hover .p2ritolu {
+    opacity: 100;
+}
+footer{
+  background-color: rgb(216, 189, 156);
+}
+.kontakt{
+  float: left;
+  padding-left: 5%;
+  font-size: 30px;
+}
+.sm{
+  display: block;
+  width: 3%;
+  float: right;
+  padding-right: 5%;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+  padding-left: 50%;
+}
+
+@media only screen and (max-width: 720px) {
+  body{ 
+    border: 3px solid #000000;
+  }
+  .retseptid{
+    float: left;
+    margin-left: 5%;
+  }
+  .v6ta{
+    float: right;
+    margin-right: 5%;
+  }
+  .b2nner{
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 5%;
+  }
+  .meist {
+    display: block; 
+    margin: auto;
+    width: 90%;
+  }
+  .meist_pilt{
+    visibility: hidden;
+  }
+  .retsept{
+    visibility: visible;
+    margin-left: 5%;
+  }
+  .veerg {
+    display: block;
+    width: 100%;
+    padding-bottom: 5%;
+  }
+  .ring{
+    width: 70%;
+    border-radius:200px;
+  }
+  .animatsioon{
+    font-size: 50px;
+  }
+  .kontakt{
+    font-size: 15px;
+  }
+  .sm{
+    padding-left: 50%;
+    width: 7%;
+  }
+}
