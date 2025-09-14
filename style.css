@@ -95,15 +95,17 @@ footer{
   padding-left: 50%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 720px) {
   body{ 
     border: 3px solid #000000;
   }
   .retseptid{
+    font-size: 12px;
     float: left;
     margin-left: 5%;
   }
   .v6ta{
+    font-size: 12px;
     float: right;
     margin-right: 5%;
   }
@@ -144,7 +146,4 @@ footer{
     padding-left: 50%;
     width: 7%;
   }
-
 }
-
-
